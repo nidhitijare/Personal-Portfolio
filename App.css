@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: linear-gradient(to right, #f8cdda, #c2e9fb);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background: pink;
+  border: none;
+  border-radius: 5px;
+}
+
+.about, .skills {
+  padding: 50px;
+  text-align: center;
+}

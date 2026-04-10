@@ -1,0 +1,38 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  }
+  
+  .hero-left h1 {
+    font-size: 60px;
+  }
+  
+  .hero-left span {
+    color: #ff4d88;
+  }
+  
+  .btn {
+    padding: 30px 30px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .pink {
+    background: #ff4d88;
+    color: white;
+  }
+  
+  .circle {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, #fbc2eb, #a6c1ee);
+    border-radius: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+  }
